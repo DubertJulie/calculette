@@ -1,0 +1,84 @@
+:root {
+    --orange: #FD6438;
+    --rose: #FCB1CA;
+    --vert: #CFFE7A;
+    --marron: #420203;
+    --creme: #FBDE9C;
+    --vertfonce: #00553E;
+    --font-main: "Rubik", sans-serif;
+    font-weight: bold;
+  }
+
+body {
+    background-color: whitesmoke;
+    font-family: "Rubik", sans-serif;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    display: flex;
+    flex-direction: column; 
+}
+
+.calculette {
+    background-color: #FFF;
+    padding: 5vh 8vh;
+    border-radius: 1em;
+}
+
+input {
+    background-color: var(--orange);
+    padding: 3em;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    color: var(--creme);
+    font-family: "Rubik";
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#num2 {
+    background-color: var(--rose);
+    color: var(--marron);
+}
+
+input::placeholder {
+    color: #FFF;
+    font-weight: bold;
+}
+
+select {
+    appearance: none;
+    background-color: var(--vertfonce);
+    padding: 3em;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    color: var(--creme);
+    font-family: "Rubik";
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+button {
+    background-color: var(--orange);
+    padding: 3em;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    color: var(--creme);
+    font-family: "Rubik";
+    font-size: 1rem;  
+}
+
+#result {
+    background-color: var(--vert);
+    color: var(--vertfonce);
+    padding: 3em;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    color: var(--vertfonce);
+    font-family: "Rubik";
+    font-size: 1rem; 
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Calculette</title>
+</head>
+
+<body>
+    <h1>Calculette </h1><br>
+    <div class="calculette">
+    <input type="number" id="num1" placeholder="Nombre 1">
+    
+    <select id="operation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">x</option>
+        <option value="divide">/</option>
+        <option value="expo">**</option>
+    </select>
+    
+    <input type="number" id="num2" placeholder="Nombre 2">
+    <button type="button" onClick="calculate()">=</button>
+</form>
+    
+
+    <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
